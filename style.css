@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+:root{
+    --matte-black: #28282b
+}
+
+body{
+    background-color: var(--matte-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98%;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+.clock-container{
+    background-color: rgb(32, 32, 32);
+    width: 30rem;
+    height: fit-content;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.time-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.8rem;
+    background-color: black;
+    border-radius: 1rem;
+    margin: 1rem;
+    height: fit-content;
+}
+
+#date{
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 1rem;
+}
+#session{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-left: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
